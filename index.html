@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="just my test website">
+        <meta name="Keywords" content="html, css, js">
+        <meta name="Author" content="Dannae">
+        <meta http-equiv="refresh" content="30">
+
+        <title>Html tester</title>
+    </head>
+    <body>
+        <p><mark>Headings</mark></p>
+        <h1><i>Holi </i>H1 head</h1>
+        <h2>H2 head<mark> holi de nuevo</mark></h2>
+        <h3>h3 <del>borrado</del></h3>
+
+        <p><mark>Links</mark></p>
+        <a href="http://www.w3schools.com"> Link to W3</a>
+        <br>
+        <a href="http://www.w3schools.com" target="_blank"> Link to W3 in New tab</a>
+        <br>
+        <p><mark>Images</mark></p>
+        <img src="https://images.prismic.io/mystique/5d7c09b9-40e5-4254-ae1c-2c1cb59aa898_IMG3.jpg?auto=compress,format" alt="Image not found" width="200" height="200">
+
+        <!-- <p>Esto es un comentario loco </p> -->
+        <p><mark>Tables</mark></p>
+        <table id="users-table">
+            <tr id="row-dates">
+                <th id="table-header-name">Nombre</th>
+                <th id="table-header-lastname">Apellido</th>
+                <th id="table-header-year">Año</th>
+            </tr>
+            <tr id="row-datesInput">
+                <td>Dannae</td>
+                <td>Martinez</td>
+                <td>1999</td>
+            </tr>
+            <tr class="row-secund-datesInput">
+                <td>Dann</td>
+                <td>Mar</td>
+                <td>2000</td>
+            </tr>
+        </table>
+
+        <p><mark>List</mark></p>
+        <ul id="list-programs">
+            <li id="programOne">JavaScript</li>
+            <li id="programTwo">Java</li>
+            <li>Python</li>
+            <li>Php</li>
+        </ul>
+
+        <ol id="list-name">
+            <li>Dannae</li>
+            <li>Dannae2</li>
+            <li>Dannae3</li>
+        </ol>
+
+        <p><mark>Form</mark></p>
+        <form>
+            First name:<br>
+            <input type="text" placeholder="Enter your first name">
+            <br>
+            Last name:<br>
+            <input type="text" placeholder="Enter your last name">
+            <br>
+            Age:<br>
+            <input type="number" placeholder="Enter your age">
+            <br>
+            <input type="submit" value="Submit Form">
+        </form>
+
+        <p><mark>Button</mark></p>
+        <button data-testid="btn-click" class="Button">Click Here</button>
+        <br>
+        <button data-testid="btn-menu" class="Button">Menu</button>
+        <button data-testid="btn-maps" class="Button">maps</button>
+        <button data-testid="btn-maps" class="Button">user</button>
+        <br>
+        <button data-testid="btn-dont-click" class="Button">Dont Click Here</button>
+
+        <p><mark>Symbols</mark></p>
+        <h3>&#169</h3>
+        <h3>&copy</h3>
+
+        <p><mark>Dynamic Conten</mark></p>
+        <h1>Time</h1>
+        <button type="button" id="get-date-button" onclick="document.getElementById('date').innerHTML = Date()">🗓</button>
+        <p id="date"></p>
+
+    </body>
+</html>
